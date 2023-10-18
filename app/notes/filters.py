@@ -24,4 +24,4 @@ class NoteFilter(django_filters.FilterSet):
 
     class Meta:
         model = Note
-        fields = ["ids", "tag_titles", "tag_ids", "creator", "is_public"]
+        fields = ["ids", "tag_titles", "tag_ids", "is_public"]
